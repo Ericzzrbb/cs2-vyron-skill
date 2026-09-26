@@ -1,0 +1,41 @@
+{
+  "vyron.dash.activated": "{green}[Vyron]{default} Power Boost engaged! Cooldown {0:0.#}s.",
+  "vyron.dash.cooldown": "{red}[Vyron]{default} Power Boost recharging: {0:0.#}s left.",
+  "vyron.dash.disabled": "{red}[VyronSkill]{default} the ability is disabled on this server.",
+  "vyron.dash.not_alive": "{red}[Vyron]{default} you must be alive to use Power Boost.",
+  "vyron.dash.downed": "{red}[Vyron]{default} you are downed and cannot use Power Boost.",
+  "vyron.dash.freeze_time": "{red}[Vyron]{default} Power Boost is unavailable during freeze time.",
+  "vyron.dash.in_progress": "{orange}[Vyron]{default} Power Boost is already thrusting.",
+  "vyron.dash.air_not_allowed": "{red}[Vyron]{default} Power Boost cannot be used in mid-air on this server.",
+
+  "vyron.reward.refresh": "{green}[Vyron]{default} Enemy defeated: Power Boost refreshed!",
+  "vyron.reward.reduce": "{green}[Vyron]{default} {0}: cooldown -{1:0.#}s (remaining {2:0.#}s).",
+
+  "vyron.action.kill_bot": "Bot takedown",
+  "vyron.action.kill_player": "Player killed",
+  "vyron.action.knockdown_bot": "Bot takedown",
+  "vyron.action.knockdown_player": "Player knocked down",
+  "vyron.action.assist_bot": "Assisted bot takedown",
+  "vyron.action.assist_player": "Assisted player takedown",
+
+  "vyron.mode.changed": "{orange}[VyronSkill]{default} mode switched to {0}.",
+  "vyron.mode.hazard": "Hazard Operations (烽火地带)",
+  "vyron.mode.warfare": "All-out Warfare (全面战场)",
+
+  "vyron.pref.four_way": "{green}[Vyron]{default} operator preference: 4 cardinal directions only (no accidental diagonals).",
+  "vyron.pref.eight_way": "{green}[Vyron]{default} operator preference: 8 directions (cardinals + diagonals).",
+
+  "vyron.help.controls": "{green}[Vyron - Power Boost]{default} press your {green}bound key{default} or type {green}!dash{default} / {green}!vyron{default} (console: bind \"f\" \"css_vyron\").",
+  "vyron.help.direction": "{default} {green}!dashmode{default} toggles the direction preference (8-way / 4-way). Hold a movement key to steer the boost, or dash where you look.",
+  "vyron.help.cooldown": "{default} 10 m per boost, 15 s cooldown, usable in mid-air. Takedowns reduce the cooldown; in All-out Warfare every kill refreshes it completely.",
+
+  "vyron.hud.cooldown": "Power Boost {0:0.#}s",
+
+  "vyron.knockdown.victim": "{red}You have been knocked down!{default} A teammate can save you by holding {green}E{default} for a few seconds. You bleed out in {0:0} seconds.",
+  "vyron.knockdown.bleed_out": "{red}You bled out and died.",
+  "vyron.knockdown.revived": "{green}You were revived by {0}{default}!",
+  "vyron.knockdown.revive_done": "{green}You revived {0}{default}.",
+  "vyron.knockdown.hud_downed": "DOWNED - bleeding out in {0:0}s",
+  "vyron.knockdown.hud_reviving": "BEING REVIVED - {0:0}%",
+  "vyron.knockdown.hud_rescuing": "REVIVING {0} - {1:0}%"
+}

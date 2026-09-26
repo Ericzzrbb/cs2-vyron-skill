@@ -1,0 +1,41 @@
+{
+  "vyron.dash.activated": "{green}[威龙]{default} 动力推进已启动！冷却 {0:0.#} 秒。",
+  "vyron.dash.cooldown": "{red}[威龙]{default} 动力推进冷却中：还需 {0:0.#} 秒。",
+  "vyron.dash.disabled": "{red}[VyronSkill]{default} 服务器已禁用该技能。",
+  "vyron.dash.not_alive": "{red}[威龙]{default} 你必须在存活状态下才能使用动力推进。",
+  "vyron.dash.downed": "{red}[威龙]{default} 你已被击倒，无法使用动力推进。",
+  "vyron.dash.freeze_time": "{red}[威龙]{default} 准备时间内无法使用动力推进。",
+  "vyron.dash.in_progress": "{orange}[威龙]{default} 动力推进正在推进中。",
+  "vyron.dash.air_not_allowed": "{red}[威龙]{default} 本服务器不允许在空中释放动力推进。",
+
+  "vyron.reward.refresh": "{green}[威龙]{default} 击败敌人：动力推进冷却已完全刷新！",
+  "vyron.reward.reduce": "{green}[威龙]{default} {0}：动力推进冷却 -{1:0.#} 秒（剩余 {2:0.#} 秒）。",
+
+  "vyron.action.kill_bot": "击倒人机",
+  "vyron.action.kill_player": "击杀玩家",
+  "vyron.action.knockdown_bot": "击倒人机",
+  "vyron.action.knockdown_player": "击倒玩家",
+  "vyron.action.assist_bot": "协助击倒人机",
+  "vyron.action.assist_player": "协助击倒玩家",
+
+  "vyron.mode.changed": "{orange}[VyronSkill]{default} 模式已切换为 {0}。",
+  "vyron.mode.hazard": "烽火地带",
+  "vyron.mode.warfare": "全面战场",
+
+  "vyron.pref.four_way": "{green}[威龙]{default} 干员偏好：仅4个正方向（前/后/左/右，不会误触斜向）。",
+  "vyron.pref.eight_way": "{green}[威龙]{default} 干员偏好：8 个方向（前后左右 + 四个斜向）。",
+
+  "vyron.help.controls": "{green}[威龙 · 动力推进]{default} 按 {green}绑定键{default} 或输入 {green}!dash{default} / {green}!vyron{default} 释放（控制台可用 bind \"f\" \"css_vyron\"）。",
+  "vyron.help.direction": "{default} {green}!dashmode{default} 切换方向偏好（8 方向 / 仅4方向）；按住移动键决定推进方向，不按键则朝准星方向推进。",
+  "vyron.help.cooldown": "{default} 单次推进 10 米、冷却 15 秒，空中也可释放；击倒/击杀敌人可缩短冷却，全面战场下击败敌人直接刷新。",
+
+  "vyron.hud.cooldown": "动力推进 {0:0.#}s",
+
+  "vyron.knockdown.victim": "{red}你被击倒了！{default}队友按住 {green}E{default} 数秒即可将你救起，{0:0} 秒后你将因失血过多阵亡。",
+  "vyron.knockdown.bleed_out": "{red}你因失血过多阵亡。",
+  "vyron.knockdown.revived": "{green}你已被 {0}{default} 救起！",
+  "vyron.knockdown.revive_done": "{green}你成功救起了 {0}{default}。",
+  "vyron.knockdown.hud_downed": "已被击倒 · {0:0} 秒后阵亡",
+  "vyron.knockdown.hud_reviving": "正在被救援 · {0:0}%",
+  "vyron.knockdown.hud_rescuing": "正在救援 {0} · {1:0}%"
+}

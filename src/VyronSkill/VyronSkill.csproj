@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>VyronSkill</AssemblyName>
+    <RootNamespace>VyronSkill</RootNamespace>
+    <!-- CounterStrikeSharp loads the plugin assembly inside its own process, so the API
+         assembly and its dependencies must NOT be copied into the plugin folder. -->
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <Version>1.0.0</Version>
+    <!-- Must match the CounterStrikeSharp version installed on your server
+         (addons/counterstrikesharp/api/CounterStrikeSharp.API.dll).
+         Override on the command line: dotnet build -p:CssApiVersion=1.0.375 -->
+    <CssApiVersion Condition="'$(CssApiVersion)' == ''">1.0.371</CssApiVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CounterStrikeSharp.API" Version="$(CssApiVersion)">
+      <PrivateAssets>all</PrivateAssets>
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Ship the language files next to the plugin binary. -->
+    <None Update="lang\**\*.*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>
